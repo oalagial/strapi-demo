@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/repositories",
+      "handler": "repositories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/repositories/count",
+      "handler": "repositories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/repositories/:id",
+      "handler": "repositories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/repositories",
+      "handler": "repositories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/repositories/:id",
+      "handler": "repositories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/repositories/:id",
+      "handler": "repositories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

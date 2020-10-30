@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "repositories",
+  "info": {
+    "name": "repositories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "language": {
+      "type": "string"
+    }
+  }
+}
